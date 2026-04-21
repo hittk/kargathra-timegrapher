@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Pre-Compose launch theme.
+        Visible briefly while the Compose hierarchy is being composed.
+        The full Compose KargathraTheme replaces this once the first frame
+        is rendered.
+    -->
+    <style name="Theme.Kargathra" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/navy_deep</item>
+        <item name="android:statusBarColor">@color/navy_deep</item>
+        <item name="android:navigationBarColor">@color/navy_deep</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+</resources>

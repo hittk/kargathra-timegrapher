@@ -1,0 +1,58 @@
+# Built artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Gradle
+.gradle/
+build/
+app/build/
+**/build/
+captures/
+.cxx/
+app/.cxx/
+
+# Local configuration
+local.properties
+*.iml
+.idea/
+
+# Android Studio generated files
+.externalNativeBuild/
+.navigation/
+app/release/
+app/debug/
+app/src/androidTest/java/
+
+# Keystore files — NEVER commit
+*.jks
+*.keystore
+keystore.properties
+
+# Kotlin
+.kotlin/
+
+# macOS / Linux / Windows junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IntelliJ / Android Studio
+*.ipr
+*.iws
+.idea/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# OS
+.env
+.env.local
+*.log

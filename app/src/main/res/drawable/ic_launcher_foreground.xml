@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Launcher icon foreground.
+
+    Renders the Kargathra logo inside the adaptive-icon safe zone.
+    Android devices may apply a mask (circle, squircle, etc.) to the
+    overall 108x108 canvas; the logo sits within the central 72x72
+    safe zone so the mask never clips it.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Triangle outline (same shape as ic_kargathra_logo, sized for safe zone) -->
+    <path
+        android:pathData="M 30,36 L 78,36 L 54,78 Z
+                          M 34.5,39 L 73.5,39 L 54,73 Z"
+        android:fillColor="@color/gold_primary"
+        android:fillType="evenOdd" />
+
+    <!-- Serif K, centred inside triangle -->
+    <path
+        android:pathData="
+            M 45,44 L 52,44 L 52,47 L 50.5,47 L 50.5,63 L 52,63 L 52,66 L 45,66 L 45,63 L 46.5,63 L 46.5,47 L 45,47 Z
+            M 55,44 L 63,44 L 63,47 L 61.5,47 L 55,53.5 L 62,63 L 63.5,63 L 63.5,66 L 56,66 L 56,63 L 57.5,63 L 52,55.5 L 50.5,57 L 50.5,52 L 56,47 L 55,47 Z"
+        android:fillColor="@color/gold_primary"
+        android:fillType="nonZero" />
+
+</vector>

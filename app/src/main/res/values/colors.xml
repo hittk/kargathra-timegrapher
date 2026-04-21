@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        KARGATHRA & Co. brand palette.
+
+        The palette derives from classical heritage watchmaking: deep navy
+        (evoking enamel dial / lacquer finish), warm champagne gold (gilt
+        engraving / applied indices), and warm cream (aged dial).
+
+        Use color roles, not raw values, in Compose code.
+    -->
+
+    <!-- ── Navy (backgrounds) ──────────────────────────────────────────────── -->
+    <color name="navy_deep">#0B1A2E</color>         <!-- Primary app background -->
+    <color name="navy_surface">#152641</color>      <!-- Card / elevated surface -->
+    <color name="navy_elevated">#1B2F4F</color>     <!-- Overlay / dialog -->
+    <color name="navy_border">#1E3555</color>       <!-- Hairline divider / border -->
+
+    <!-- ── Gold (primary accent, brand) ────────────────────────────────────── -->
+    <color name="gold_primary">#D4A84B</color>      <!-- Brand, logo, key data -->
+    <color name="gold_bright">#EFC667</color>       <!-- Active / selected state -->
+    <color name="gold_muted">#8B7344</color>        <!-- Labels, secondary text -->
+    <color name="gold_dim">#5A4A2C</color>          <!-- Inactive controls -->
+
+    <!-- ── Cream (readable text on navy) ───────────────────────────────────── -->
+    <color name="cream_primary">#F5E8C8</color>     <!-- Body text where gold is too warm -->
+    <color name="cream_muted">#A89B7F</color>       <!-- Secondary labels -->
+
+    <!-- ── Status colours (used sparingly) ─────────────────────────────────── -->
+    <color name="status_good">#D4A84B</color>       <!-- Gold (matches brand) -->
+    <color name="status_warn">#E89B3E</color>       <!-- Amber -->
+    <color name="status_bad">#CC4E3A</color>        <!-- Muted oxide red -->
+
+</resources>
